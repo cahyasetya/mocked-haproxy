@@ -1,0 +1,2 @@
+# Reload HA from outside the host
+docker kill -s HUP <container>

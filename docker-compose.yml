@@ -1,0 +1,10 @@
+version: "3.0"
+services:
+  my-haproxy:
+    image: haproxytech/haproxy-alpine
+    ports:
+      - 80:80
+      - 1936:1936
+    volumes:
+      - ${PWD}/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+      - ${PWD}/scripts:/etc/haproxy/
