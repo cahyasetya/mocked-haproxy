@@ -4,4 +4,4 @@
 # How to run
 ```docker-compose up```
 
-We can add more scripts to handle requests or update existing script to return expected payload
+We can add more scripts to handle requests or update existing scripts to return expected payload
