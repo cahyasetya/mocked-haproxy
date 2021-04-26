@@ -1,2 +1,7 @@
 # Reload HA from outside the container
-docker kill -s HUP <container>
+```docker kill -s HUP <container>```
+
+# How to run
+```docker-compose up```
+
+We can add more scripts to handl requests or update existing script to return expected payload
